@@ -1,0 +1,10 @@
+{
+  "name": "Roon",
+  "version": "0.0.1",
+  "title": "Roon",
+  "author": "Runex",
+  "contact": "www.roon.com",
+  "homepage": "www.roon.com",
+  "description": "Factorio in roon edition",
+  "dependencies": "base = 0.11.8"
+}
