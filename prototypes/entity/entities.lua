@@ -72,6 +72,28 @@ data:extend(
         height = 102
       }
     }
-  }
+  },
+  {
+    type = "water-gun-explosion",
+    name = "water-gun-explosion",
+    flags = {"not-on-map"},
+    animation_speed = 1,
+    animations =
+    {
+      {
+        filename = "__base__/graphics/entity/flame-thrower-explosion/water-fun-explosion.png",
+        priority = "extra-high",
+        width = 64,
+        height = 64,
+        frame_count = 64,
+        line_length = 8
+      }
+    },
+    slow_down_factor = 0.3,
+    smoke = "smoke-fast",
+    smoke_count = 1,
+    smoke_slow_down_factor = 0.95,
+    damage = {amount = 0.50, type = "fire"}
+  },
 }
 )

@@ -30,5 +30,37 @@ data:extend(
     subgroup = "ammo",
     order = "e[flame-thrower]",
     stack_size = 50
-  }
+  },
+    {
+    type = "ammo",
+    name = "water-gun-ammo",
+    icon = "__base__/graphics/icons/water-gun-mag.png",
+    flags = {"goes-to-main-inventory"},
+    ammo_type =
+    {
+      category = "water-gun-ammo",
+      target_type = "direction",
+      action =
+      {
+        type = "direct",
+        action_delivery =
+        {
+          {
+            type = "water-gun",
+            explosion = "water-gun-explosion",
+            direction_deviation = 0.07,
+            speed_deviation = 0.1,
+            starting_frame_deviation = 0.07,
+            damage = { amount = 20, type = "fire"},
+            projectile_starting_speed = 1.0,
+            starting_distance = 0.6,
+          }
+        }
+      }
+    },
+    magazine_size = 100,
+    subgroup = "ammo",
+    order = "e[flame-thrower]",
+    stack_size = 50
+  },
 )
