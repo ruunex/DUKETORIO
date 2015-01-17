@@ -81,7 +81,7 @@ data:extend(
     animations =
     {
       {
-        filename = "__base__/graphics/entity/flame-thrower-explosion/water-fun-explosion.png",
+        filename = "__roon__/graphics/entity/water-gun-explosion.png",
         priority = "extra-high",
         width = 64,
         height = 64,

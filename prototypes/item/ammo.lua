@@ -62,5 +62,5 @@ data:extend(
     subgroup = "ammo",
     order = "e[flame-thrower]",
     stack_size = 50
-  },
+  }
 )
