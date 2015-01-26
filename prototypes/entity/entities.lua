@@ -74,14 +74,14 @@ data:extend(
     }
   },
   {
-    type = "water-gun-explosion",
-    name = "water-gun-explosion",
+    type = "flame-thrower-explosion",
+    name = "flame-thrower-explosion",
     flags = {"not-on-map"},
     animation_speed = 1,
     animations =
     {
       {
-        filename = "__roon__/graphics/entity/water-gun-explosion.png",
+        filename = "__Roon__/graphics/entity/water-gun-explosion.png",
         priority = "extra-high",
         width = 64,
         height = 64,

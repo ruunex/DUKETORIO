@@ -1,5 +1,6 @@
 data:extend(
   {
+  {
     type = "ammo",
     name = "flame-ammo",
     icon = "__base__/graphics/icons/flame-thrower-ammo.png",
@@ -33,12 +34,12 @@ data:extend(
   },
     {
     type = "ammo",
-    name = "water-gun-ammo",
-    icon = "__base__/graphics/icons/water-gun-mag.png",
+    name = "water-gun-mag",
+    icon = "__Roon__/graphics/icons/water-gun-mag.png",
     flags = {"goes-to-main-inventory"},
     ammo_type =
     {
-      category = "water-gun-ammo",
+      category = "water-gun-mag",
       target_type = "direction",
       action =
       {
@@ -46,8 +47,8 @@ data:extend(
         action_delivery =
         {
           {
-            type = "water-gun",
-            explosion = "water-gun-explosion",
+            type = "flame-thrower",
+            explosion = "flame-thrower-explosion",
             direction_deviation = 0.07,
             speed_deviation = 0.1,
             starting_frame_deviation = 0.07,
@@ -62,5 +63,6 @@ data:extend(
     subgroup = "ammo",
     order = "e[flame-thrower]",
     stack_size = 50
+  }
   }
 )
